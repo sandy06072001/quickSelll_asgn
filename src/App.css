@@ -1,0 +1,24 @@
+/* src/styles/app.css */
+.kanban-board {
+  padding: 20px;
+}
+
+.board {
+  display: flex;
+  gap: 20px;
+}
+
+.kanban-column {
+  flex: 1;
+  background: #f4f4f4;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.kanban-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
